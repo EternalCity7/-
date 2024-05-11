@@ -1,4 +1,4 @@
-public class BubbleSort {
+public class BubbleSort {//冒泡排序
     public static void bSort(int[] numbers){//小->大
         for (int i = 0; i < numbers.length-1; i++) {
             for (int j = 0; j < numbers.length-i-1; j++) {

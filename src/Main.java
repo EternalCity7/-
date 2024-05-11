@@ -5,7 +5,8 @@ public class Main {
         System.out.println("排序前的数组：");
         printArray(arr);
 
-        BubbleSort.bSort(arr);
+        //BubbleSort.bSort(arr);
+        SelectionSort.sSort(arr);
 
         System.out.println("排序后的数组：");
         printArray(arr);
